@@ -6,4 +6,4 @@
 - 서버 사이드 템플릿 엔진이란? 서버에서 DB 혹은 API에서 가져온 데이터를 미리 정의된 Templete에 넣어 Html을 그려서 클라이언트에 전달해주는 역할. ex)JSP, Thymeleaf, Velocity, Freemarker 
 
 ### 0.다운로드 및 개발환경
-
+[Google](https://google.com, "google link")
