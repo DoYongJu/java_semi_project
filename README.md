@@ -11,3 +11,9 @@
 - [Eclipse Download](https://www.eclipse.org/downloads/, "Eclipse link")
 - [H2 Download](https://www.h2database.com/html/download.html, "H2 link")
 - [H2 Visualizer Download](https://www.dbvis.com/, "H2 Visualizer link")
+
+### 1.프로젝트 생성 및 서버 연결
+- Eclipse IDE => Create a Dynamic Web project
+  - Project Name: Diet
+  - Target runtime에서 New Runtime 클릭 후 Apache Tomcat 9.0.78v 선택 후 Next
+  - Tomcat Installation directory에 설치한 apache-tomcat-8.5.14 경로 입력
