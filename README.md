@@ -58,8 +58,10 @@
 			return;
 		}
 ## 프로젝트 설명
-### 1.프로젝트 구조
-- <p align = "center"><img width="80%" src="https://github.com/DoYongJu/java_semi_project/assets/43160573/3d15726e-1850-4ded-93ec-b44e52974891"/></p>
+### 1.프로젝트 구조 및 소요기간
+- 소요기간: 2023.08.07~2023.08.28 (3주)
+- 홈페이지 구조
+  <p align = "center"><img width="80%" src="https://github.com/DoYongJu/java_semi_project/assets/43160573/3d15726e-1850-4ded-93ec-b44e52974891"/></p>
 </br>
 
 ### 2.프로젝트 기능 
