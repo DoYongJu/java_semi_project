@@ -25,8 +25,8 @@
 ### 3. 데이터베이스 구축
 
 ### 4. JAVA Beans 만들기
-
+- [DAO 폴더](https://github.com/DoYongJu/java_semi_project/tree/master/Diet/src/main/java/bean, "JavaBean link")
 ### 5.DAO(데이터 베이스 접근 객체)만들기
 - Connection/PreparedStatement/open/close관련 파트
 - db와 연결하고 query를 날려 원하는 데이터의 내용과 구조를 결정하는 페이지
-  - [H2 Visualizer Download](https://www.dbvis.com/, "H2 Visualizer link")
+ 
