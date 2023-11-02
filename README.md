@@ -40,7 +40,8 @@
 - Service: controller에서 넘어온 입력값과 DAO의 매서드의 return값이 만나는 공간
    - input값과 dao의 리턴값으로 조건문과 반복문을 사용하여 비지니스 로직을 구현
 - 원하는 dao를 상단에 변수로 선언. 보통 Service와 DAO는 1:1로 매칭
-
+- [Service files](https://github.com/DoYongJu/java_semi_project/tree/master/Diet/src/main/java/servlet, "Servicefiles link")
+  (필자는 JSP프로젝트가 처음이라 Servlet 폴더안에 DAO, Servlet, Controller를 다 넣었지만 보다보니 정리의 필요성을 느낌. 폴더를 잘 만들자!)
 ### 7.Controller 만들기
 - view에서 다른 화면에 접근할때 Form action 값을 보고 어떤 데이터를 담은 화면으로 연결해줄지 정해주는 방향지시등 같은 Servlet.
 - Service는 dao를 핸들링 하였다면 Controller는 Service를 핸들링하기 때문에 상단에 service선언 입력 필요.
