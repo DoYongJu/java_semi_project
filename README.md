@@ -24,6 +24,7 @@
 
 ### 3. 데이터베이스 구축
 
+<img width="80%" src="https://github.com/DoYongJu/java_semi_project/assets/43160573/c6d56174-95f1-48dc-a8d8-8cea93df7c35"/>
 ### 4. JAVA Beans 만들기
 - Java beans: 데이터베이스에서 가져온 데이터들을 담는 class객체
 - beans.java에 데이터 베이스 테이블의 정보와 동일한 이름과 형을 반영하여 변수로 입력
