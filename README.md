@@ -47,7 +47,7 @@
 - Service는 dao를 핸들링 하였다면 Controller는 Service를 핸들링하기 때문에 상단에 service선언 입력 필요.
 - Controller도 servlet이기 때문에 init():서블릿 초기화, Service(),doGet(),doPost():요청과 응답, destory():서블릿 종료로 작동하기  때문에 필자는 Service()에 action 값에 따라 필요에 따라 view를 바로 연결해주기도 하고 데이터가 필요한 경우 다른 매서드를 호출하고 그 매서드의 return으로 view를 연결 해주기도 하였음. 
 - [Controller](https://github.com/DoYongJu/java_semi_project/blob/master/Diet/src/main/java/servlet/Controller.java, "daofiles link")
-- 필자가 생각했을때 이 프로젝트의 indentity는 스케쥴링, 식단/유형검사이라고 여겼으면 이러한 기능들은 등록된 유저만이 접근을 하도록 기획함. 그래서 Controller에서 publicPaths ArrayList를 선언하고 비회원일 경우 접근할 수 있는 action값을 등록하였음. 비회원이 그 외의 기능을 사용하려 접근 한다면 로그인으로 유도하는 goToLoginPath ArrayList를 만들어서 관리함.
+- 필자가 생각했을때 이 프로젝트의 indentity는 스케쥴링, 식단/유형검사이라고 여겼으며 이 기능들은 등록된 유저만이 접근을 하도록 기획함. 그래서 Controller에서 publicPaths ArrayList를 선언하고 비회원일 경우 접근할 수 있는 action값을 등록하였음. 비회원이 그 외의 기능을 사용하려 접근 한다면 로그인으로 유도하는 goToLoginPath ArrayList를 만들어서 관리함.
    - ```
      if (!isPassed(request)) { // 로그인을 하지않는 상황
 			if (goToLoginPaths.contains(request.getParameter("action"))) {
