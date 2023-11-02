@@ -34,4 +34,15 @@
 ### 5.DAO(데이터 베이스 접근 객체)만들기
 - Connection/PreparedStatement/open/close관련 파트
 - db와 연결하고 query를 날려 원하는 데이터의 내용과 구조를 결정하는 페이지
-- [DAO files](https://github.com/DoYongJu/java_semi_project/tree/master/Diet/src/main/java/servlet, "daofiles link") 
+- [DAO files](https://github.com/DoYongJu/java_semi_project/tree/master/Diet/src/main/java/servlet, "daofiles link")
+
+### 6.Service(Controller와 DAO 사이에서 비지니스 로직을 핸들링)만들기 
+- Service: controller에서 넘어온 입력값과 DAO의 매서드의 return값이 만나는 공간
+   - input값과 dao의 리턴값으로 조건문과 반복문을 사용하여 비지니스 로직을 구현
+- 원하는 dao를 상단에 변수로 선언. 보통 Service와 DAO는 1:1로 매칭
+
+### 7.Controller 만들기
+- view에서 다른 화면에 접근할때 Form action 값을 보고 어떤 데이터를 담은 화면으로 연결해줄지 정해주는 방향지시등 같은 Servlet.
+- Service는 dao를 핸들링 하였다면 Controller는 Service를 핸들링하기 때문에 상단에 service선언 입력 필요.
+- Controller도 servlet이기 때문에 init():서블릿 초기화, Service(),doGet(),doPost():요청과 응답, destory():서블릿 종료로 작동하기  때문에 필자는 Service()에 action 값에 따라 필요에 따라 view를 바로 연결해주기도 하고 데이터가 필요한 경우 다른 매서드를 호출하고 그 매서드의 return으로 view를 연결 해주기도 하였음. 
+- [Controller](https://github.com/DoYongJu/java_semi_project/blob/master/Diet/src/main/java/servlet/Controller.java, "daofiles link")
