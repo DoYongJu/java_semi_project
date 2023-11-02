@@ -57,8 +57,8 @@
 			}
 			return;
 		}
-## 프로젝트 구조 및 기능
-- 프로젝트 구조도
+## 프로젝트 설명
+### 프로젝트 구조 및 기능
 <p align = "center"><img width="80%" src="https://github.com/DoYongJu/java_semi_project/assets/43160573/3d15726e-1850-4ded-93ec-b44e52974891"/></p>
 </br>
 
