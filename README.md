@@ -17,3 +17,16 @@
   - Project Name: Diet
   - Target runtime에서 New Runtime 클릭 후 Apache Tomcat 9.0.78v 선택 후 Next
   - Tomcat Installation directory에 설치한 apache-tomcat-8.5.14 경로 입력
+    
+### 2.웹페이지 파일 만들기 & 부트스트랩
+- Jsp파일위치: WebApp (WEB-INF에 종종 들어가는 경우 발생. 추후에는 따로 폴더를 만들어서 관리하는게 좋을꺼 같음.)
+- [BootStrap Download](https://getbootstrap.com/docs/4.4/getting-started/download/, "BootStrap link")
+
+### 3. 데이터베이스 구축
+
+### 4. JAVA Beans 만들기
+
+### 5.DAO(데이터 베이스 접근 객체)만들기
+- Connection/PreparedStatement/open/close관련 파트
+- db와 연결하고 query를 날려 원하는 데이터의 내용과 구조를 결정하는 페이지
+  - [H2 Visualizer Download](https://www.dbvis.com/, "H2 Visualizer link")
