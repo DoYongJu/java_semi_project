@@ -58,3 +58,6 @@
 			return;
 		}
 ## 프로젝트 기능 
+<img width="50%" src="https://github.com/DoYongJu/java_semi_project/assets/43160573/3d15726e-1850-4ded-93ec-b44e52974891"/>
+</br>
+
