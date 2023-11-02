@@ -23,7 +23,7 @@
 - [BootStrap Download](https://getbootstrap.com/docs/4.4/getting-started/download/, "BootStrap link")
 
 ### 3. 데이터베이스 구축
-<img width="50%" src="https://github.com/DoYongJu/java_semi_project/assets/43160573/c6d56174-95f1-48dc-a8d8-8cea93df7c35"/>
+<p align = "center"><img width="50%" src="https://github.com/DoYongJu/java_semi_project/assets/43160573/c6d56174-95f1-48dc-a8d8-8cea93df7c35"/></p>
 </br>
 
 ### 4. JAVA Beans 만들기
@@ -57,7 +57,8 @@
 			}
 			return;
 		}
-## 프로젝트 기능 
-<img width="50%" src="https://github.com/DoYongJu/java_semi_project/assets/43160573/3d15726e-1850-4ded-93ec-b44e52974891"/>
+## 프로젝트 구조 및 기능
+- 프로젝트 구조도
+<p align = "center"><img width="80%" src="https://github.com/DoYongJu/java_semi_project/assets/43160573/3d15726e-1850-4ded-93ec-b44e52974891"/></p>
 </br>
 
